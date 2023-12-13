@@ -10,11 +10,11 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/orangetheme/css/orangetheme.css"
+app_include_css = "/assets/orangetheme/css/orangewhite.css"
 # app_include_js = "/assets/orangetheme/js/orangetheme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/orangetheme/css/orangetheme.css"
+web_include_css = "/assets/orangetheme/css/orangewhite.css"
 # web_include_js = "/assets/orangetheme/js/orangetheme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
