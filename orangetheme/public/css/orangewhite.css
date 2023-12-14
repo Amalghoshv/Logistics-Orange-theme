@@ -1,12 +1,6 @@
-.for-login .page-card, .for-forgot .page-card, .for-signup .page-card, .for-email-login .page-card {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-color: #fff;
-    box-shadow: var(--shadow-base);
-    background-color: lightsteelblue;
-    }
+
     .btn.btn-primary {
-    background-color: rebeccapurple;
+    background-color: #f86608;
     color: var(--white);
     white-space: nowrap;
     --icon-stroke: currentColor;
@@ -22,27 +16,108 @@
     background-color: indianred;
   }
   .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.1);
-    background-color: aliceblue;
+    border:2px ;
+    border-bottom-color: rgba(0, 255, 0, 0.1);
+    background-image: radial-gradient(circle, rgba(248,102,8,1) 7%, rgba(255,255,255,1) 70%);
+    
   }
   .navbar {
-    height: 60px;
-    box-shadow: var(--shadow-sm);
-    padding: 0;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(63, 40, 96) 70%);
-    background: rgb(54,59,121);
-    background: radial-gradient(circle, rgb(54, 59, 121) 0%, rgb(251, 63, 169) 100%);
+   height:60px;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+        
+   
+  }
+  .search-bar .awesomplete input {
+    
+    border-bottom: 2px solid #f86608;
+  }
+  .standard-sidebar-label{
+    color: white;
+  }
+  .widget.number-widget-box {
+    background-color: #f86608;
+    color: white;
+    cursor: pointer;
+    min-height: 84px;
+    padding: var(--number-card-padding);
+    border: 1px solid var(--border-color);
+  }
+  .widget.number-widget-box .widget-body .widget-content .number {
+    font-size: var(--text-2xl);
+    font-weight: var(--weight-bold);
+    letter-spacing: 0.01em;
+    line-height: var(--text-line-height-3xl);
+    color: white;
+  }
+  .ellipsis, .awesomplete > ul > li, .widget.shortcut-widget-box .indicator-pill {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    vertical-align: middle;
+    color: grey;
+    font-weight: bolder;
+  }
+  .page-actions .btn:not(.icon-btn), .page-actions div#driver-popover-item .driver-popover-footer button:not(.icon-btn), div#driver-popover-item .driver-popover-footer .page-actions button:not(.icon-btn) {
+    padding: 20px 12px;
+    font-weight: bold;
+  }
+  .btn:not(.btn-md):not(.btn-lg), div#driver-popover-item .driver-popover-footer button:not(.btn-md):not(.btn-lg) {
+    padding: 20px 12px;
+  }
+  .icon-xs {
+    width: 12px;
+    height: 12px;
+    stroke-width: 3.5;
   }
   .widget {
     display: flex;
     flex-direction: column;
     min-height: 1px;
     padding: 15px;
-    border-radius: 15px 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
     height: 100%;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     background-color: var(--card-bg);
   }
-  
+  .standard-sidebar-item .sidebar-item-label {
+    flex: 1;
+    font-weight: bold;
+    color: gray;
+  }
+
+  .icon, .es-icon {
+    font-size: 0;
+    fill: transparent;
+    stroke: gray;
+    stroke-width: 2;
+    margin-top: 6px;
+  }
+  .standard-sidebar .standard-sidebar-item .sidebar-item-label, .desk-sidebar .standard-sidebar-item .sidebar-item-label, .search-dialog .search-results .search-sidebar .standard-sidebar-item .sidebar-item-label {
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: revert;
+    padding: 5px;
+  }
+  .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
+    background-color:#f86608;
+    color:white
+  }
+  .navbar-home img {
+    max-height: 53px;
+    width: 60px;
+  }
+  .widget.spacer{
+    box-shadow: none;
+  }
+  .app-logo {
+    width: 90px! Important;
+    height:50px
+    }
+  .widget-title{
+      color:white
+    }
+  .dropdown-item:hover{
+      border-bottom: 2px solid #f86608;
+    }
