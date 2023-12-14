@@ -102,7 +102,9 @@
   }
   .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
     background-color:#f86608;
-    color:white
+    color:white;
+    -webkit-text-fill-color: white;
+
   }
   .navbar-home img {
     max-height: 53px;
@@ -115,9 +117,9 @@
     width: 90px! Important;
     height:50px
     }
-  .widget-title{
-      color:white
-    }
+
   .dropdown-item:hover{
-      border-bottom: 2px solid #f86608;
+      border-bottom: 2.5px solid #f86608;
+      font-weight: bold;
     }
+ 
