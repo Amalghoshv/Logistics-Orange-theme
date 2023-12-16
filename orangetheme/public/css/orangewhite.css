@@ -55,8 +55,8 @@
     text-overflow: ellipsis;
     max-width: 100%;
     vertical-align: middle;
-    color: grey;
-    font-weight: bolder;
+    color: rgb(68, 68, 68);
+    font-weight: 600;
   }
   .page-actions .btn:not(.icon-btn), .page-actions div#driver-popover-item .driver-popover-footer button:not(.icon-btn), div#driver-popover-item .driver-popover-footer .page-actions button:not(.icon-btn) {
     padding: 20px 12px;
@@ -68,7 +68,7 @@
   .icon-xs {
     width: 12px;
     height: 12px;
-    stroke-width: 3.5;
+    stroke-width: 3;
   }
   .widget {
     display: flex;
@@ -80,18 +80,22 @@
     height: 100%;
     background-color: var(--card-bg);
   }
+  .widget:hover{
+    font-weight:bold;
+    box-shadow: rgba(248, 102, 8, 0.4) 0px 5px, rgba(248, 102, 8, 0.3) 0px 10px, rgba(248, 102, 8, 0.2) 0px 15px, rgba(248, 102, 8, 0.1) 0px 20px, rgba(248, 102, 8, 0.05) 0px 25px;  }
+
   .standard-sidebar-item .sidebar-item-label {
     flex: 1;
     font-weight: bold;
-    color: gray;
+    /* color: gray; */
   }
 
   .icon, .es-icon {
     font-size: 0;
     fill: transparent;
-    stroke: gray;
+    stroke: darkgray;
     stroke-width: 2;
-    margin-top: 6px;
+    margin-top: 3px;
   }
   .standard-sidebar .standard-sidebar-item .sidebar-item-label, .desk-sidebar .standard-sidebar-item .sidebar-item-label, .search-dialog .search-results .search-sidebar .standard-sidebar-item .sidebar-item-label {
     min-width: 0;
@@ -100,10 +104,11 @@
     text-overflow: revert;
     padding: 5px;
   }
-  .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected {
+  .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected .sidebar-item-label .selected{
     background-color:#f86608;
     color:white;
     -webkit-text-fill-color: white;
+   
 
   }
   .navbar-home img {
@@ -122,4 +127,6 @@
       border-bottom: 2.5px solid #f86608;
       font-weight: bold;
     }
- 
+ .Union{
+  stroke-width: 1;
+ }
