@@ -8,12 +8,12 @@
     }
     .navbar-light {
     border-bottom: 1px solid #E2E6E9;
-    background: indianred;
+
   }
   .web-footer {
     padding: 5rem 0;
     min-height: 110px;
-    background-color: indianred;
+    
   }
   .navbar-light .navbar-toggler {
     border:2px ;
@@ -31,9 +31,7 @@
     
     border-bottom: 2px solid #f86608;
   }
-  .standard-sidebar-label{
-    color: white;
-  }
+ 
   .widget.number-widget-box {
     background-color: #f86608;
     color: white;
@@ -82,7 +80,7 @@
   }
   .widget:hover{
     font-weight:bold;
-    box-shadow: rgba(248, 102, 8, 0.4) 0px 5px, rgba(248, 102, 8, 0.3) 0px 10px, rgba(248, 102, 8, 0.2) 0px 15px, rgba(248, 102, 8, 0.1) 0px 20px, rgba(248, 102, 8, 0.05) 0px 25px;  }
+    box-shadow: rgba(248, 102, 8, 0.4) 0px 5px, rgba(248, 102, 8, 0.3) 0px 10px, rgba(248, 102, 8, 0.2) 0px 15px, rgba(248, 102, 8, 0.1) 0px 20px, }
 
   .standard-sidebar-item .sidebar-item-label {
     flex: 1;
@@ -103,14 +101,19 @@
     white-space: nowrap;
     text-overflow: revert;
     padding: 5px;
+    color: gray;
   }
   .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected .sidebar-item-label .selected{
     background-color:#f86608;
-    color:white;
+    color:white !important;;
     -webkit-text-fill-color: white;
-   
+ 
 
   }
+
+/* :root{
+  --text-color: white;
+} */
   .navbar-home img {
     max-height: 53px;
     width: 60px;
