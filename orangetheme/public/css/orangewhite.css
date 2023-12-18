@@ -80,7 +80,7 @@
   }
   .widget:hover{
     font-weight:bold;
-    /* border-bottom: 2.5px solid #f86608; */
+   
     box-shadow: rgba(248, 102, 8, 0.4) 0px 5px, rgba(248, 102, 8, 0.3) 0px 10px, rgba(248, 102, 8, 0.2) 0px 15px, rgba(248, 102, 8, 0.1) 0px 20px ;
   }
 
@@ -108,21 +108,17 @@
   }
   .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected .sidebar-item-label .selected{
     background-color:#f86608;
-   
-    /* -webkit-text-fill-color: white; */
- 
-
   }
   .navbar-home img {
-    max-height: 53px;
-    width: 60px;
+    max-height: 60px;
+   
   }
   .widget.spacer{
     box-shadow: none;
   }
   .app-logo {
-    width: 90px !important;
-    height:50px
+    width: 95px !important;
+    
     }
 
 .dropdown-item:hover{
