@@ -102,12 +102,14 @@
     white-space: nowrap;
     text-overflow: revert;
     padding: 5px;
-    color: gray;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: -6px;
   }
   .standard-sidebar .standard-sidebar-item.selected, .desk-sidebar .standard-sidebar-item.selected, .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected .sidebar-item-label .selected{
     background-color:#f86608;
-    color:white !important;;
-    -webkit-text-fill-color: white;
+   
+    /* -webkit-text-fill-color: white; */
  
 
   }
