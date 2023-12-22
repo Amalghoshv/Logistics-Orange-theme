@@ -31,6 +31,10 @@
     
     border-bottom: 2px solid #f86608;
   }
+  .widget.shortcut-widget-box {
+    cursor: pointer;
+    /* padding: 2px 7px; */
+  }
  
   .widget.number-widget-box {
     background-color: #f86608;
