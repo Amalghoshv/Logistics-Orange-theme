@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("../css/bg.jpeg") ;
+    background-image: url("/assets/orangetheme/images/bg.jpeg") ;
   }
   .web-footer {
     padding: 5rem 0;
