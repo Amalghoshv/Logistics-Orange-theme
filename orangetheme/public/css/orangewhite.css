@@ -10,6 +10,10 @@
     border-bottom: 1px solid #E2E6E9;
 
   }
+  .for-login .page-card .page-card-body .email-field input, .for-login .page-card .page-card-body .password-field input, .for-forgot .page-card .page-card-body .email-field input, .for-forgot .page-card .page-card-body .password-field input, .for-login-with-email-link .page-card .page-card-body .email-field input, .for-login-with-email-link .page-card .page-card-body .password-field input, .for-signup .page-card .page-card-body .email-field input, .for-signup .page-card .page-card-body .password-field input, .for-email-login .page-card .page-card-body .email-field input, .for-email-login .page-card .page-card-body .password-field input {
+    padding-left: 35px;
+    border-bottom: 2px solid #f86608;
+  }
   .for-login .page-card, .for-forgot .page-card, .for-signup .page-card, .for-email-login .page-card {
     padding-top: 45px;
     padding-bottom: 45px;
@@ -17,7 +21,7 @@
     box-shadow: var(--shadow-base);
     background-color: lightsteelblue;
     }
-  body{
+  #page-login{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,6 +41,7 @@
   .navbar {
    height:60px;
    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+   
         
    
   }
@@ -79,6 +84,7 @@
   }
   .btn:not(.btn-md):not(.btn-lg), div#driver-popover-item .driver-popover-footer button:not(.btn-md):not(.btn-lg) {
     padding: 15px 12px;
+    font-weight: bold;
   }
   .icon-xs {
     width: 12px;
